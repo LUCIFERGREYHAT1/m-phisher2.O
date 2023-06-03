@@ -156,8 +156,8 @@ If not found, php, ssh and python modoules will be installed on first run
 
 ## [~] Find Me on :
 
-- [![Github](https://img.shields.io/badge/Github-KasRoudra-green?style=for-the-badge&logo=github)](https://github.com/LUCIFERGREYHAT1)
+- [![Github](https://img.shields.io/badge/Github-SHAKTIBIPLAB-green?style=for-the-badge&logo=github)](https://github.com/LUCIFERGREYHAT1)
 
-- [![Gmail](https://img.shields.io/badge/Gmail-KasRoudra-green?style=for-the-badge&logo=gmail)](mailto:shaktibiplab25@gmail.com)
+- [![Gmail](https://img.shields.io/badge/Gmail-SHAKTIBIPLAB-green?style=for-the-badge&logo=gmail)](mailto:shaktibiplab25@gmail.com)
 
-- [![Telegram](https://img.shields.io/badge/Telegram-KasRoudra-indigo?style=for-the-badge&logo=telegram)](https://t.me/lifeisshorttisha)
+- [![Telegram](https://img.shields.io/badge/Telegram-SHAKTIBIPLAB-indigo?style=for-the-badge&logo=telegram)](https://t.me/lifeisshorttisha)
