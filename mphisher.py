@@ -989,9 +989,8 @@ def about():
     print(f"{red}{yellow}[{purple}Version{yellow}]       {cyan} : {yellow}[{green}{version}{yellow}] ")
     print(f"{red}{yellow}[{purple}Author{yellow}]        {cyan} : {yellow}[{green}\x4C\x55\x43\x49\x46\x45\x52\x47\x52\x45\x59\x48\x41\x54\x31{yellow}] ")
     print(f"{red}{yellow}[{purple}Github{yellow}]        {cyan} : {yellow}[{green}https://github.com/\x4C\x55\x43\x49\x46\x45\x52\x47\x52\x45\x59\x48\x41\x54\x31{purple}{yellow}] ")
-    print(f"{red}{yellow}[{purple}Messenger{yellow}]     {cyan} : {yellow}[{green}https://m.me/\x4C\x55\x43\x49\x46\x45\x52\x47\x52\x45\x59\x48\x41\x54\x31{yellow}] ")
     print(f"{red}{yellow}[{purple}Telegram {yellow}]     {cyan} : {yellow}[{green}https://t.me/\x4C\x55\x43\x49\x46\x45\x52\x47\x52\x45\x59\x48\x41\x54\x31{yellow}] ")
-    print(f"{red}{yellow}[{purple}Email{yellow}]         {cyan} : {yellow}[{green}\x6b\x61\x73\x72\x6f\x75\x64\x72\x61krd@gmail.com{yellow}] ")
+    print(f"{red}{yellow}[{purple}Email{yellow}]         {cyan} : {yellow}[{green}\x73\x68\x61\x6B\x74\x69\x62\x69\x70\x6C\x61\x62\x32\x35@gmail.com{yellow}] ")
     print(f"\n{green}[{white}0{green}]{yellow} Exit                     {green}[{white}x{green}]{yellow} Main Menu       \n")
     inp = input(f"\n{ask}Choose your option: {green}")
     if inp == "0":
