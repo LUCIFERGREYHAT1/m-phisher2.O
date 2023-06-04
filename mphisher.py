@@ -459,7 +459,7 @@ def show_file_data(file):
     cprint(
         Panel(
             text.strip(),
-            title="[bold green]\x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F
+            title="[bold green]\x4D\x2D\x50\x68\x69\x73\x68\x65\x72\x32\x2E\x4F[/][cyan] Data[/]", 
         [/][cyan] Data[/]", 
             title_align="left",
             border_style="blue",
